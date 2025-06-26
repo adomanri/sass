@@ -1,0 +1,152 @@
+header {
+  width: 100%;
+  background-color: rgb(3, 3, 95);
+}
+header .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 12px;
+  display: flex;
+}
+header .container .chap {
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+header .container .chap h1 {
+  color: white;
+}
+header .container .ong {
+  width: 900px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+header .container .ong .tugma {
+  position: relative;
+  left: 250px;
+  padding: 10px 25px;
+  background-color: rgb(3, 3, 95);
+  border-radius: 15px;
+  box-shadow: rgb(250, 250, 251) 0px 2px 5px -1px, rgba(251, 250, 250, 0.3) 0px 1px 3px -1px;
+  color: white;
+}
+header .container .ong .list {
+  color: white;
+}
+
+main {
+  width: 100%;
+  background-color: rgb(3, 3, 95);
+}
+main .container2 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 12px;
+  display: flex;
+}
+main .container2 .left {
+  width: 600px;
+  height: 600px;
+  margin-top: 100px;
+}
+main .container2 .left .img {
+  border-radius: 100%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+main .container2 .right {
+  width: 600px;
+  height: 600px;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+main .container2 .right .strong {
+  color: white;
+  font-size: 70px;
+  font-family: Calibri;
+}
+main .container2 .right .get {
+  color: rgb(182, 158, 158);
+  line-height: 35px;
+}
+main .container2 .right button {
+  padding: 10px 35px;
+  border-radius: 20px;
+  background-color: rgb(3, 3, 95);
+  font-size: 15px;
+  color: rgb(182, 158, 158);
+  border: none;
+}
+main .container2 .right button:hover {
+  background-color: rgb(46, 46, 208);
+  color: white;
+  font-size: 20px;
+}
+
+section {
+  width: 100%;
+  background-color: rgb(3, 3, 95);
+}
+section .container3 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+section .container3 .child {
+  width: 300px;
+  height: 300px;
+}
+section .container3 .child .icon {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  position: relative;
+  left: 100px;
+}
+section .container3 .child h2 {
+  color: white;
+  position: relative;
+  left: 50px;
+}
+section .container3 .child p {
+  color: rgb(182, 158, 158);
+  position: relative;
+  left: 30px;
+}
+
+nav {
+  width: 100%;
+  background-color: rgb(3, 3, 95);
+}
+nav .container4 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 12px;
+  display: flex;
+}
+nav .container4 .left {
+  width: 600px;
+  height: 600px;
+  margin-top: 100px;
+}
+nav .container4 .left .img {
+  width: 500px;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+nav .container4 .right {
+  width: 500px;
+  height: 500px;
+  margin-top: 100px;
+}/*# sourceMappingURL=style.css.map */

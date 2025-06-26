@@ -1,0 +1,37 @@
+header{
+    width: 100%;
+    background-color:rgb(3, 3, 95);
+    .container{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 12px;
+        display: flex;
+        .chap{
+            width: 300px;
+            display: flex;
+            align-items: center;
+            h1{
+                color: white;
+            }
+        }
+        .ong{
+            width: 900px;
+            display: flex;
+            align-items: center;
+            gap: 35px;
+            .tugma{
+                position: relative;
+                left: 250px;
+                padding: 10px 25px;
+                background-color:rgb(3, 3, 95) ;
+                border-radius: 15px;
+                box-shadow: rgb(250, 250, 251) 0px 2px 5px -1px, rgba(251, 250, 250, 0.3) 0px 1px 3px -1px;
+                color: white;
+            }
+            .list{
+                color:white;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+nav{
+        width: 100%;
+    background-color:rgb(3, 3, 95);
+    .container4{
+         width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 12px;
+        display: flex;
+        .left{
+              width: 600px;
+            height: 600px;
+            margin-top: 100px;
+            .img{
+                width: 500px;
+                height: 500px;
+                object-fit:cover;
+
+            }
+        }
+        .right{
+            width: 500px;
+            height: 500px;
+            margin-top: 100px;
+        }
+    }
+}

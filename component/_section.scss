@@ -1,0 +1,36 @@
+section{
+     width: 100%;
+    background-color:rgb(3, 3, 95);
+    .container3{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        .child{
+            width: 300px;
+            height: 300px;
+            
+            .icon{
+                width: 85px;
+                height: 85px;
+                border-radius: 50%;
+                position: relative;
+                left: 100px;
+            }
+            h2{
+                color: white;
+                position: relative;
+                left: 50px;
+            }
+            p{
+                color: rgb(182, 158, 158);
+                position: relative;
+                left: 30px;
+            }
+        }
+    }
+}
