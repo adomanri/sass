@@ -133,10 +133,11 @@ nav .container4 {
   margin: auto;
   padding: 12px;
   display: flex;
+  gap: 35px;
 }
 nav .container4 .left {
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   margin-top: 100px;
 }
 nav .container4 .left .img {
@@ -149,4 +150,15 @@ nav .container4 .right {
   width: 500px;
   height: 500px;
   margin-top: 100px;
+}
+nav .container4 .right .about {
+  color: rgb(246, 124, 226);
+}
+nav .container4 .right h1 {
+  color: white;
+  font-size: 40px;
+}
+nav .container4 .right p {
+  color: rgb(171, 160, 160);
+  line-height: 25px;
 }/*# sourceMappingURL=style.css.map */
